@@ -12,7 +12,7 @@ public class AServlet extends javax.servlet.http.HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         String name = request.getParameter("name");
         if(name.equals("曹操")){
-            response.getWriter().write("欢迎曹丞相");
+            response.getWriter().write("欢迎曹丞相!!!!");
         }else {
             response.getWriter().write("来者何人？");
         }
